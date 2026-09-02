@@ -1,0 +1,19 @@
+{
+  "name": "sunilgautamportfolio",
+  "version": "1.0.0",
+  "description": "Sunil Gautam - Technical Solution Architect & Full Stack Engineer Portfolio",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "Sunil Gautam",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
