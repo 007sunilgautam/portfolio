@@ -1,0 +1,13 @@
+{
+  "name": "Sunil Gautam — Portfolio",
+  "short_name": "Sunil Gautam",
+  "description": "Technical Solution Architect, Team Lead & Senior Full Stack Engineer (MERN + AWS).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080b12",
+  "theme_color": "#080b12",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "og.png", "sizes": "1200x630", "type": "image/png" }
+  ]
+}

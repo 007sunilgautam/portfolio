@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sunil-gautam.vercel.app/sitemap.xml
