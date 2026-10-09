@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sunil Gautam — Resume</title>
+<style>
+  :root { --ink:#000; --muted:#222; --rule:#000; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; padding:0; }
+  body { font-family: Georgia, "Times New Roman", "Latin Modern Roman", serif; color:var(--ink); font-size:10.6px; line-height:1.34; background:#e9e9e9; }
+  .page { max-width:8.27in; margin:18px auto; background:#fff; padding:0.45in 0.6in; box-shadow:0 2px 14px rgba(0,0,0,0.14); }
+
+  header { text-align:center; margin-bottom:4px; }
+  h1 { font-size:30px; font-weight:700; letter-spacing:0.5px; margin:0 0 3px; }
+  .contact { font-size:10px; color:var(--muted); }
+  .contact a { color:var(--muted); text-decoration:underline; }
+  .contact span { white-space:nowrap; }
+
+  h2 { font-size:12px; font-variant:small-caps; text-transform:lowercase; letter-spacing:1px; font-weight:700; margin:11px 0 2px; padding-bottom:1px; border-bottom:1px solid var(--rule); break-after:avoid; page-break-after:avoid; }
+
+  .entry { margin-top:5px; break-inside:avoid; page-break-inside:avoid; }
+  .row { display:flex; justify-content:space-between; align-items:baseline; }
+  .row .l { font-weight:700; font-size:11px; }
+  .row .r { font-size:10px; }
+  .sub { display:flex; justify-content:space-between; align-items:baseline; font-style:italic; font-size:10px; color:var(--muted); margin-top:0; }
+
+  ul { margin:2px 0 3px; padding-left:15px; }
+  li { margin:0 0 1.5px; break-inside:avoid; page-break-inside:avoid; }
+
+  .skills div { margin:1.5px 0; }
+  .skills b { font-weight:700; }
+
+  p.proj { margin:2px 0; break-inside:avoid; page-break-inside:avoid; }
+  p.proj b { font-weight:700; }
+
+  @media print {
+    html, body { background:#fff; }
+    body { font-size:10.4px; }
+    .page { box-shadow:none; margin:0; max-width:none; padding:0; }
+    @page { size:A4; margin:13mm 15mm; }
+    a { color:#000; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Sunil Gautam</h1>
+    <div class="contact">
+      <span>+91-8081433959</span> &nbsp;|&nbsp;
+      <span><a href="mailto:business.sunilgautam@gmail.com">business.sunilgautam@gmail.com</a></span> &nbsp;|&nbsp;
+      <span><a href="https://linkedin.com/in/sunil-gautam-061312168">linkedin.com/in/sunil-gautam-061312168</a></span> &nbsp;|&nbsp;
+      <span><a href="https://github.com/007sunilgautam">github.com/007sunilgautam</a></span>
+    </div>
+  </header>
+
+  <h2>Summary</h2>
+  <p style="margin:3px 0 0; font-size:10.5px;">
+    Senior Full Stack Engineer &amp; Technical Lead (13+ yrs) building and scaling enterprise SaaS on
+    <b>React.js, Next.js, Node.js, TypeScript</b>, and PHP/Laravel with REST/GraphQL APIs, microservices, and
+    AWS. Player-coach who mentors teams, owns delivery end to end, and uses AI-assisted development (Claude) to
+    raise velocity and quality. Delivered 6+ SaaS products across Banking, Entertainment, E-commerce, and
+    Facility Management.
+  </p>
+
+  <h2>Experience</h2>
+
+  <div class="entry">
+    <div class="row"><span class="l">Team Lead / Senior Full Stack Engineer</span><span class="r">Jan 2024 &ndash; Present</span></div>
+    <div class="sub"><span>HKK Entertainment Private Limited &mdash; <i>Zillit (Enterprise SaaS)</i></span><span>Remote</span></div>
+    <ul>
+      <li>Lead architecture and full-stack development of <b>Zillit</b> across web, Android, and iOS, serving the global entertainment industry.</li>
+      <li>Built a reusable <b>React/Next.js component library</b> that cut feature-development effort by <b>~20&ndash;25%</b> and improved UI consistency and accessibility.</li>
+      <li>Improved front-end load/render performance by an estimated <b>30&ndash;40%</b> via lazy loading, code splitting, memoization, and API optimization.</li>
+      <li>Engineered real-time collaboration (<b>Socket.IO/Firebase</b>) and secure <b>JWT/OAuth/RBAC</b> auth; designed and optimized REST/GraphQL APIs.</li>
+      <li>Led sprint planning and code reviews, mentored <b>6+ engineers</b>, and introduced <b>AI-assisted development (Claude)</b>, cutting routine coding/review time an estimated 30%.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="row"><span class="l">Consultant Project Leader</span><span class="r">May 2021 &ndash; Dec 2023</span></div>
+    <div class="sub"><span>R Systems International &mdash; <i>IATF (CIBC Banking)</i></span><span>Remote</span></div>
+    <ul>
+      <li>Led development of <b>IATF (CIBC)</b>, an enterprise banking platform with a risk-based decision engine; built secure <b>Node.js transaction APIs</b> with audit logging, validation, and authorization.</li>
+      <li>Automated <b>CI/CD via Bitbucket</b> for reliable releases; ran <b>PostgreSQL on AWS RDS</b> with CloudWatch monitoring for banking-grade uptime.</li>
+      <li>Reduced production defects by an estimated <b>30%</b> through code reviews, automated testing, and sprint quality gates; mentored developers.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="row"><span class="l">Technical Solution Architect</span><span class="r">Sep 2020 &ndash; Apr 2021</span></div>
+    <div class="sub"><span>Shivkaal Infotech Pvt. Ltd. &mdash; <i>Krishak Fresh (E-commerce)</i></span><span>India</span></div>
+    <ul>
+      <li>Architected <b>Krishak Fresh</b> end to end; designed <b>REST/GraphQL API</b> architecture and normalized schemas, improving query performance an estimated <b>25%</b>.</li>
+      <li>Implemented secure, role-based backend across <b>4 user roles</b>; integrated Google Maps for geolocation and delivery routing.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="row"><span class="l">Senior Software Engineer</span><span class="r">Sep 2018 &ndash; Sep 2020</span></div>
+    <div class="sub"><span>STPL &mdash; <i>fmPilot / fsElite Connect</i></span><span>India</span></div>
+    <ul>
+      <li>Built enterprise facility-management apps (web + hybrid Android/iOS) for multi-location work-order management with <b>Angular/Ionic</b> and Node.js.</li>
+      <li>Implemented <b>offline-first sync</b> and caching for field workers, reducing sync failures in low-network conditions.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="row"><span class="l">Software Engineer (Full Stack, incl. PHP/Laravel)</span><span class="r">Jan 2012 &ndash; Aug 2018</span></div>
+    <div class="sub"><span>Singsys Pte Ltd &mdash; <i>Tueetor</i></span><span>India</span></div>
+    <ul>
+      <li>Built <b>Tueetor</b>, a tutor-student marketplace, full-stack &mdash; backend REST APIs with <b>PHP/Laravel (MVC)</b> and Node.js, plus responsive frontends.</li>
+      <li>Delivered responsive web and hybrid mobile apps; collaborated with designers and engineers in Agile teams.</li>
+    </ul>
+  </div>
+
+  <h2>Projects</h2>
+  <p class="proj"><b>Zillit &mdash; Enterprise Production-Management SaaS.</b> React/Next.js + Node.js/GraphQL with a reusable component library, real-time collaboration (Socket.IO/Firebase), and RBAC on AWS.</p>
+  <p class="proj"><b>IATF &mdash; Instant Access to Deposited Funds (CIBC).</b> Banking platform with secure Node.js transaction APIs, PostgreSQL, audit logging, and risk-based decisioning.</p>
+  <p class="proj"><b>Krishak Fresh.</b> E-commerce delivery platform with REST/GraphQL APIs, normalized schemas, and Maps-based routing, architected end to end.</p>
+  <p class="proj"><b>Portfolio.</b> Personal site with GSAP-animated, SEO-optimized frontend &mdash; <a href="https://github.com/007sunilgautam">github.com/007sunilgautam</a>.</p>
+
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div><b>Languages:</b> TypeScript, JavaScript (ES6+), PHP, SQL, HTML5, CSS3</div>
+    <div><b>Frontend:</b> React.js, Next.js, Redux, Angular, Ionic, Tailwind CSS, Bootstrap, Webpack, Responsive Design, Reusable Component Libraries, Accessibility</div>
+    <div><b>Backend &amp; APIs:</b> Node.js, Express.js, PHP/Laravel, REST APIs, GraphQL, Microservices, Socket.IO, Real-Time Applications</div>
+    <div><b>Databases:</b> MongoDB, PostgreSQL, MySQL, AWS RDS, Data Modeling, Query Optimization</div>
+    <div><b>Cloud &amp; DevOps:</b> AWS (EC2, S3, RDS, CloudWatch), Firebase, CI/CD Pipelines, Git, GitHub, GitLab, Bitbucket</div>
+    <div><b>Practices:</b> System Design, JWT/OAuth/RBAC, Automated Testing (Jest), Agile/Scrum Leadership, Mentoring, AI-Assisted Development (Claude)</div>
+  </div>
+
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="row"><span class="l">Uttar Pradesh Technical University (UPTU)</span><span class="r">2012</span></div>
+    <div class="sub"><span>Master of Computer Applications (MCA)</span><span>India</span></div>
+  </div>
+  <div class="entry">
+    <div class="row"><span class="l">Bhopal University</span><span class="r">2009</span></div>
+    <div class="sub"><span>Bachelor of Computer Applications (BCA)</span><span>India</span></div>
+  </div>
+
+  <h2>Achievements</h2>
+  <ul>
+    <li>Delivered <b>6+ enterprise SaaS products</b> across Banking, Entertainment, E-commerce, and Facility Management.</li>
+    <li>Led Agile engineering teams of <b>6+ developers</b>; reduced UI development effort <b>~20&ndash;25%</b> via reusable component libraries.</li>
+    <li>Built real-time systems (Socket.IO/Firebase) and secure banking-grade transaction APIs; designed scalable REST/GraphQL APIs for web and mobile.</li>
+  </ul>
+
+</div>
+</body>
+</html>
